@@ -21,7 +21,11 @@ npm run build:webpack
 
 ### Some notes
   * Webpack has not had support esm output format. It's in the work for webpack@5 [1]. Would this affect treeshakability?
+  * Some explanations for large bundle size I found online:
+    * webpack added a lot of boilerplate code to support module resolution in browser env (e.g. [rollup's HelloWorld](dist-rollup/components/HelloWorld.js) vs. [webpack's HelloWorld](dist-webpack/components/HelloWorld.js))
 
 
-### Sources
-[1] https://github.com/webpack/webpack/issues/2933
+
+### Interesting reads
+[1] [Github issue: support output.libraryTarget: 'module'](https://github.com/webpack/webpack/issues/2933)
+[2] [Webpack and Rollup: the same but different](https://medium.com/webpack/webpack-and-rollup-the-same-but-different-a41ad427058c)
