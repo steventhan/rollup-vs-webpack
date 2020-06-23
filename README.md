@@ -1,4 +1,4 @@
-# Webpack and rollup comparison
+# rollup/webpack comparison
 
 ### Rollup build
 ```shell
