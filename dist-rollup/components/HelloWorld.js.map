@@ -1,0 +1,1 @@
+{"version":3,"file":"HelloWorld.js","sources":["../../src/components/HelloWorld.tsx"],"sourcesContent":["import React from \"react\";\n\nexport default function HelloWorld() {\n  return <div>Simple react component</div>;\n}\n"],"names":["HelloWorld","React"],"mappings":";;AAEe,SAASA,UAAT,GAAsB;AACnC,sBAAOC,4DAAP;AACD;AAFuBD;;;;"}
